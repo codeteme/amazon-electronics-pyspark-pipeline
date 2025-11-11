@@ -61,11 +61,11 @@ The pipeline applied multiple chained transformations before any action to lever
 * SQL Queries:
     * Average rating by year
 
-![SQL Query 1 – Average Rating](img001.png)
+![SQL Query 1 – Average Rating](imgs/img001.png)
 
     * Top ASINs with 1000+ reviews
 
-![Top Products Chart](img002.png)
+![Top Products Chart](imgs/img002.png)
 
     * Output:
         * Written to a Unity Catalog managed table: main.default.reviews_agg_output
@@ -108,7 +108,7 @@ This demonstrates Spark’s lazy evaluation model where execution occurs only wh
 
 Example of lazy transformation query details: 
 
-![Lazy Transformation](img003.png)
+![Lazy Transformation](imgs/img003.png)
 ---
 
 4. Machine Learning
